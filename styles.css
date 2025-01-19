@@ -1,0 +1,97 @@
+body {
+    font-family: Arial,sans-serif;
+    background-color: #121212;
+    color: floralwhite;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+@font-face {
+    font-family: 'Inter-VariableFont_slnt,wght.ttf'; /* Назва вашого шрифту */
+    src: url('assets/fonts/your-font.woff2') format('woff2'),
+         url('assets/fonts/your-font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+ }
+ @media (max-width: 768px) {
+    .profile-name {
+       font-size: 1.2rem; 
+       margin: 5px; 
+    }
+ 
+    a {
+       font-size: 1rem; 
+    }
+ }
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.profile-card {
+    background-color: rgba(66, 64, 64, 0.603);
+    border-radius: 15px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(227, 224, 224, 0.3);
+}
+.profile-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+.profile-name {
+   font-family: 'MyCustomFont', sans-serif; 
+   font-size: 1.5rem;
+   font-weight: bold;
+   margin: 10px;
+
+}
+.profile-location {
+    color: #138120;
+margin-bottom: 20px;
+}
+.profile-bio {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.profile-links .btn {
+    display: block;
+    background-color: #333333;
+color: white;
+text-decoration: none;
+padding: 10px;
+margin: 15px 0;
+border-radius:8px ;
+font-size:1.1rem ;
+transition: backgroung-color 0.1 ease;
+}
+.profile-links .btn :hover{
+    background-color: #575757;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;}
+    .btn:hover, .btn:focus {
+        background-color: #aff045e5; /* Підсвітка для кнопок */
+        color: #333;
+     }
+    .a{
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3 ease;
+}
+.a:hover, a:focus {
+    color: #7FFF00;
+}
